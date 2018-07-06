@@ -19,3 +19,6 @@ JSON PHP Extension
 1. Modify this `.env` file to add your mysql database credentials.
 1. From the root of the project, run `php artisan migrate` to initialize the database
 1. Configure an apache site with the root pointed towards `/var/www/html/public` or `$YOUR_INSTALL_LOCATION/public`
+
+## Miscellaneous Thoughts
+I considered implementing this with a series of JSON-returning services and jQuery ajax requests.  Should such an solution be deemed highly preferable, this repository could be modified upon request.
